@@ -3,7 +3,7 @@ node-fidonet-outbound-bso
 
 [![Build Status](https://travis-ci.org/askovpen/node-fidonet-outbound-bso.svg?branch=master)](https://travis-ci.org/askovpen/node-fidonet-outbound-bso)
 
-The **Fidonet Outbound BSO** module is able to read BSO Outbound
+The **Fidonet Outbound BSO parser** module is able to read BSO Outbound
 
 [![(npm package version)](https://nodei.co/npm/fidonet-outbound-bso.png?downloads=true)](https://npmjs.org/package/fidonet-outbound-bso)
 
