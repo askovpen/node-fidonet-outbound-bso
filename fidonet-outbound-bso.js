@@ -2,7 +2,7 @@ var fs=require('fs');
 var path=require('path');
 var util=require('util');
 
-var BSO= function(bsoPath, zone){
+var BSO=function(bsoPath, zone){
 	if (!(this instanceof BSO)) return new BSO(bsoPath, zone);
 	this.bsoPath=bsoPath;
 	this.zone=zone;
@@ -97,6 +97,6 @@ BSO.prototype.add=function(file,addr,bundle,kknd,prio){
 		this.files[addr]=[];
 	}
 	var stat=fs.statSync(file);
-	this.files[addr].push({'file':file,'size':stat.size,'bundle':bundle,'kknd':kknd,'prio':prio});
+	this.files[addr].push({'file':file,'size':stat.size,'bundle':bundle,'kknd':kknd,'prio':prio,'type':'bso'});
 };
 module.exports=BSO;

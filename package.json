@@ -1,7 +1,7 @@
 {
 	"name": "fidonet-outbound-bso",
 	"main": "fidonet-outbound-bso.js",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"description": "Fidonet Outbound BSO parser",
 	"keywords": ["Fidonet", "Fido", "Outbound", "BSO"],
 	"author": { "name": "Alexander N. Skovpen" },
